@@ -1,6 +1,19 @@
 package leetcode;
 
-public class LongestPalindrome {
+/**
+ 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
+
+ 示例 1：
+
+ 输入: "babad"
+ 输出: "bab"
+ 注意: "aba" 也是一个有效答案。
+ 示例 2：
+
+ 输入: "cbbd"
+ 输出: "bb"
+ */
+public class A0005_LongestPalindrome {
     /**
      * 最长回文串
      * tips : 动态规划 + 判断条件 +  s.get(i)==s.get(j)&&isPalindrome[i+1][j-1]
@@ -26,6 +39,6 @@ public class LongestPalindrome {
     }
 
     public static void main(String[] args){
-        System.out.println(LongestPalindrome.longestPalindrome("aadaddadaioq"));
+        System.out.println(A0005_LongestPalindrome.longestPalindrome("aadaddadaioq"));
     };
 }

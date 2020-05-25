@@ -1,4 +1,4 @@
-package leetcode;
+package other;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +24,7 @@ public class StringAdding {
             if (number>=10){
                 shouldAddOne = true;
                 number = number - 10;
-            }else {
+            }else  {
                 shouldAddOne = false;
             }
             result = number + result;

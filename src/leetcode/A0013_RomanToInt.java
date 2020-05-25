@@ -48,7 +48,7 @@ import java.util.List;
  输出: 1994
  解释: M = 1000, CM = 900, XC = 90, IV = 4.
  */
-public class A13_RomanToInt {
+public class A0013_RomanToInt {
     public static int romanToInt(String s) {
         int result = 0;
         String restStr = s;

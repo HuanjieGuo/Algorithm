@@ -54,7 +54,7 @@ public class QuickUnionUF {
         if(sz[i]<sz[j]){
             id[i] = j;
             sz[j] += sz[i];
-        }else {
+        }else  {
             id[j] = i;
             sz[i] += sz[j];
         }

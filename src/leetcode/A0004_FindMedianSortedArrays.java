@@ -1,11 +1,30 @@
 package leetcode;
 
-import edu.princeton.cs.algs4.In;
-
-import java.lang.reflect.Array;
 import java.util.*;
 
-public class FindMedianSortedArrays {
+/**
+ 给定两个大小为 m 和 n 的正序（从小到大）数组 nums1 和 nums2。
+
+ 请你找出这两个正序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。
+
+ 你可以假设 nums1 和 nums2 不会同时为空。
+
+  
+
+ 示例 1:
+
+ nums1 = [1, 3]
+ nums2 = [2]
+
+ 则中位数是 2.0
+ 示例 2:
+
+ nums1 = [1, 2]
+ nums2 = [3, 4]
+
+ 则中位数是 (2 + 3)/2 = 2.5
+ */
+public class A0004_FindMedianSortedArrays {
     /**
      * 找两个有序LIST的中位数
      * TIP: 寻找第K小数,剔除后第一个便是
@@ -41,7 +60,7 @@ public class FindMedianSortedArrays {
                 //删除掉1
                 array1 = array1.subList(maxNumber1,array1.size());
                 numberInRank = numberInRank  - maxNumber1  ;
-            }else {
+            }else  {
                 //删除2
                 array2 = array2.subList(maxNumber2,array2.size());
                 numberInRank = numberInRank - maxNumber2  ;
@@ -57,7 +76,7 @@ public class FindMedianSortedArrays {
             }else {
                 return (array.get(numberInRank-1)+array.get(numberInRank))/2.0;
             }
-        }else {
+        }else  {
             List<Integer> rankList = new ArrayList();
             // 等于0的 取前4
             for(int i=0;i<Math.min(2,array1.size());i++){
@@ -83,6 +102,6 @@ public class FindMedianSortedArrays {
 //        int[] data2 = {1,6,8,14,18,19,22};
         int[] data1 = {};
         int[] data2 = {1,2,3,4};
-        System.out.println(FindMedianSortedArrays.findMedianSortedArrays(data1,data2));
+        System.out.println(A0004_FindMedianSortedArrays.findMedianSortedArrays(data1,data2));
     }
 }

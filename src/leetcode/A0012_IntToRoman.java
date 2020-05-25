@@ -43,7 +43,7 @@ package leetcode;
         解释: M = 1000, CM = 900, XC = 90, IV = 4.
 **/
 
-public class A12_IntToRoman {
+public class A0012_IntToRoman {
     /**
      * 罗马字转INT
      * tips: 贪心算法， 从大到小减
