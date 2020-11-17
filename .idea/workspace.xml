@@ -6,58 +6,12 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eddfeb47-e2f0-4d5c-8b55-6d4a2b1e1c02" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/RedBlackTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/A0030_FindSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/A0031_NextPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/A9999_LongestCommonSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_06_ReversePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_07_BuildTree/Offer_07_BuildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_07_BuildTree/Offer_07_BuildTree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_03_FindRepeatNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_05_ReplaceSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_09_CQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_10_1_Fib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_10_2_numWaysStair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0001_TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0001_TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0002_AddTwoNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0002_AddTwoNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0003_LengthOfLongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0003_LengthOfLongestSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0004_FindMedianSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0004_FindMedianSortedArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0005_LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0005_LongestPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0006_Convert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0006_Convert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0007_Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0007_Reverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0009_IsPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0009_IsPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0012_IntToRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0012_IntToRoman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0013_RomanToInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0013_RomanToInt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0014_LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0014_LongestCommonPrefix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0015_ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0015_ThreeSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0016_ThreeSumClosest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0016_ThreeSumClosest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0017_LetterCombinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0017_LetterCombinations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0018_FourSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0018_FourSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0019_RemoveNthFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0019_RemoveNthFromEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0020_IsValid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0020_IsValid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0024_SwapPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0024_SwapPairs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0025_ReverseKGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0025_ReverseKGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0026_RemoveDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0026_RemoveDuplicates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0028_StrStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0028_StrStr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/structure/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/structure/KMP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/other/StringAdding.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/other/StringAdding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/week1/unionFind/QuickFindUF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/week1/unionFind/QuickFindUF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/week1/unionFind/QuickUnionUF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/week1/unionFind/QuickUnionUF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_11_MinArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,25 +188,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="173" key="GridCell.Tab.0.bottom" timestamp="1605654607970">
+    <state width="1358" height="173" key="GridCell.Tab.0.bottom" timestamp="1605654670151">
       <screen x="0" y="25" width="1440" height="805" />
     </state>
-    <state width="1358" height="173" key="GridCell.Tab.0.bottom/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605654607970" />
+    <state width="1358" height="173" key="GridCell.Tab.0.bottom/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605654670151" />
     <state width="1358" height="173" key="GridCell.Tab.0.bottom/0.25.1440.806/1440.-393.1080.1895@0.25.1440.806" timestamp="1605458577834" />
-    <state width="1358" height="173" key="GridCell.Tab.0.center" timestamp="1605654607969">
+    <state width="1358" height="173" key="GridCell.Tab.0.center" timestamp="1605654670150">
       <screen x="0" y="25" width="1440" height="805" />
     </state>
-    <state width="1358" height="173" key="GridCell.Tab.0.center/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605654607969" />
+    <state width="1358" height="173" key="GridCell.Tab.0.center/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605654670150" />
     <state width="1358" height="173" key="GridCell.Tab.0.center/0.25.1440.806/1440.-393.1080.1895@0.25.1440.806" timestamp="1605458577834" />
-    <state width="1358" height="173" key="GridCell.Tab.0.left" timestamp="1605654607968">
+    <state width="1358" height="173" key="GridCell.Tab.0.left" timestamp="1605654670150">
       <screen x="0" y="25" width="1440" height="805" />
     </state>
-    <state width="1358" height="173" key="GridCell.Tab.0.left/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605654607968" />
+    <state width="1358" height="173" key="GridCell.Tab.0.left/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605654670150" />
     <state width="1358" height="173" key="GridCell.Tab.0.left/0.25.1440.806/1440.-393.1080.1895@0.25.1440.806" timestamp="1605458577833" />
-    <state width="1358" height="173" key="GridCell.Tab.0.right" timestamp="1605654607969">
+    <state width="1358" height="173" key="GridCell.Tab.0.right" timestamp="1605654670151">
       <screen x="0" y="25" width="1440" height="805" />
     </state>
-    <state width="1358" height="173" key="GridCell.Tab.0.right/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605654607969" />
+    <state width="1358" height="173" key="GridCell.Tab.0.right/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605654670151" />
     <state width="1358" height="173" key="GridCell.Tab.0.right/0.25.1440.806/1440.-393.1080.1895@0.25.1440.806" timestamp="1605458577834" />
     <state x="397" y="200" key="run.anything.popup" timestamp="1605630142738">
       <screen x="0" y="25" width="1440" height="805" />
