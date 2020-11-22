@@ -11,13 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eddfeb47-e2f0-4d5c-8b55-6d4a2b1e1c02" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_15_HammingWeight/A_Offer_15_HammingWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_15_HammingWeight/A_Offer_15_HammingWeight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_16_MyPow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_17_PrintNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/ThreadLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_18_DeleteNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_20_IsNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_21_Exchange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_13_MovingCountInMaxtrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_13_MovingCountInMaxtrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_13_MovingCountInMaxtrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_13_MovingCountInMaxtrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offerAlgorithm/Offer_17_PrintNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_17_PrintNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,22 +63,9 @@
       <recent name="$PROJECT_DIR$/src/week1/unionFind" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A_Offer_16_MyPow">
+  <component name="RunManager" selected="Application.ThreadLearning">
     <configuration name="A_Offer_13_MovingCountInMaxtrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offerAlgorithm.A_Offer_13_MovingCountInMaxtrix" />
-      <module name="AlgorithmCoursera" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="offerAlgorithm.A_Offer_14_CuttingRope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A_Offer_14_CuttingRope_NoIntLimt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offerAlgorithm.A_Offer_14_CuttingRope.A_Offer_14_CuttingRope_NoIntLimt" />
       <module name="AlgorithmCoursera" />
       <extension name="coverage">
         <pattern>
@@ -117,12 +103,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Offer_10_2_numWaysStair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offerAlgorithm.Offer_10_2_numWaysStair" />
+    <configuration name="Offer_17_PrintNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offerAlgorithm.Offer_17_PrintNumbers" />
       <module name="AlgorithmCoursera" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="offerAlgorithm.A_Offer_14_CuttingRope.*" />
+          <option name="PATTERN" value="offerAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLearning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.ThreadLearning" />
+      <module name="AlgorithmCoursera" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +130,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Offer_10_2_numWaysStair" />
       <item itemvalue="Application.A_Offer_13_MovingCountInMaxtrix" />
-      <item itemvalue="Application.A_Offer_14_CuttingRope_NoIntLimt" />
       <item itemvalue="Application.A_Offer_15_HammingWeight" />
       <item itemvalue="Application.A_Offer_16_MyPow" />
+      <item itemvalue="Application.Offer_17_PrintNumbers" />
+      <item itemvalue="Application.ThreadLearning" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLearning" />
+        <item itemvalue="Application.Offer_17_PrintNumbers" />
         <item itemvalue="Application.A_Offer_16_MyPow" />
         <item itemvalue="Application.A_Offer_15_HammingWeight" />
         <item itemvalue="Application.A_Offer_13_MovingCountInMaxtrix" />
-        <item itemvalue="Application.A_Offer_14_CuttingRope_NoIntLimt" />
-        <item itemvalue="Application.Offer_10_2_numWaysStair" />
       </list>
     </recent_temporary>
   </component>
@@ -196,43 +195,51 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1038" height="196" key="GridCell.Tab.0.bottom" timestamp="1605892027513">
-      <screen x="1440" y="-393" width="1080" height="1895" />
+    <state x="436" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1605996142530">
+      <screen x="0" y="25" width="1440" height="808" />
+    </state>
+    <state x="436" y="139" key="#com.intellij.ide.util.MemberChooser/0.25.1440.808/1440.-393.1080.1895@0.25.1440.808" timestamp="1605996142530" />
+    <state width="1038" height="159" key="GridCell.Tab.0.bottom" timestamp="1606001431252">
+      <screen x="0" y="25" width="1440" height="808" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.bottom/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
     <state width="1358" height="173" key="GridCell.Tab.0.bottom/0.25.1440.806/1440.-393.1080.1895@0.25.1440.806" timestamp="1605458577834" />
     <state width="1038" height="222" key="GridCell.Tab.0.bottom/0.25.1440.806/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605819016150" />
-    <state width="1038" height="196" key="GridCell.Tab.0.bottom/0.25.1440.808/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605892027513" />
+    <state width="1038" height="159" key="GridCell.Tab.0.bottom/0.25.1440.808/1440.-393.1080.1895@0.25.1440.808" timestamp="1606001431252" />
+    <state width="1038" height="196" key="GridCell.Tab.0.bottom/0.25.1440.808/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605892385965" />
     <state width="678" height="196" key="GridCell.Tab.0.bottom/0.25.1440.808@0.25.1440.808" timestamp="1605884529595" />
     <state width="1038" height="223" key="GridCell.Tab.0.bottom/0.25.1440.813/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605698012928" />
     <state width="1038" height="222" key="GridCell.Tab.0.bottom/0.25.1440.815@0.25.1440.815" timestamp="1605870825528" />
-    <state width="1038" height="196" key="GridCell.Tab.0.center" timestamp="1605892027512">
-      <screen x="1440" y="-393" width="1080" height="1895" />
+    <state width="1038" height="159" key="GridCell.Tab.0.center" timestamp="1606001431252">
+      <screen x="0" y="25" width="1440" height="808" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.center/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
     <state width="1358" height="173" key="GridCell.Tab.0.center/0.25.1440.806/1440.-393.1080.1895@0.25.1440.806" timestamp="1605458577834" />
     <state width="1038" height="222" key="GridCell.Tab.0.center/0.25.1440.806/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605819016149" />
-    <state width="1038" height="196" key="GridCell.Tab.0.center/0.25.1440.808/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605892027512" />
+    <state width="1038" height="159" key="GridCell.Tab.0.center/0.25.1440.808/1440.-393.1080.1895@0.25.1440.808" timestamp="1606001431252" />
+    <state width="1038" height="196" key="GridCell.Tab.0.center/0.25.1440.808/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605892385964" />
     <state width="678" height="196" key="GridCell.Tab.0.center/0.25.1440.808@0.25.1440.808" timestamp="1605884529594" />
     <state width="1038" height="223" key="GridCell.Tab.0.center/0.25.1440.813/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605698012927" />
     <state width="1038" height="222" key="GridCell.Tab.0.center/0.25.1440.815@0.25.1440.815" timestamp="1605870825526" />
-    <state width="1038" height="196" key="GridCell.Tab.0.left" timestamp="1605892027512">
-      <screen x="1440" y="-393" width="1080" height="1895" />
+    <state width="1038" height="159" key="GridCell.Tab.0.left" timestamp="1606001431252">
+      <screen x="0" y="25" width="1440" height="808" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.left/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971833" />
     <state width="1358" height="173" key="GridCell.Tab.0.left/0.25.1440.806/1440.-393.1080.1895@0.25.1440.806" timestamp="1605458577833" />
     <state width="1038" height="222" key="GridCell.Tab.0.left/0.25.1440.806/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605819016148" />
-    <state width="1038" height="196" key="GridCell.Tab.0.left/0.25.1440.808/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605892027512" />
+    <state width="1038" height="159" key="GridCell.Tab.0.left/0.25.1440.808/1440.-393.1080.1895@0.25.1440.808" timestamp="1606001431252" />
+    <state width="1038" height="196" key="GridCell.Tab.0.left/0.25.1440.808/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605892385964" />
     <state width="678" height="196" key="GridCell.Tab.0.left/0.25.1440.808@0.25.1440.808" timestamp="1605884529594" />
     <state width="1038" height="223" key="GridCell.Tab.0.left/0.25.1440.813/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605698012926" />
     <state width="1038" height="222" key="GridCell.Tab.0.left/0.25.1440.815@0.25.1440.815" timestamp="1605870825524" />
-    <state width="1038" height="196" key="GridCell.Tab.0.right" timestamp="1605892027512">
-      <screen x="1440" y="-393" width="1080" height="1895" />
+    <state width="1038" height="159" key="GridCell.Tab.0.right" timestamp="1606001431252">
+      <screen x="0" y="25" width="1440" height="808" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.right/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
     <state width="1358" height="173" key="GridCell.Tab.0.right/0.25.1440.806/1440.-393.1080.1895@0.25.1440.806" timestamp="1605458577834" />
     <state width="1038" height="222" key="GridCell.Tab.0.right/0.25.1440.806/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605819016149" />
-    <state width="1038" height="196" key="GridCell.Tab.0.right/0.25.1440.808/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605892027512" />
+    <state width="1038" height="159" key="GridCell.Tab.0.right/0.25.1440.808/1440.-393.1080.1895@0.25.1440.808" timestamp="1606001431252" />
+    <state width="1038" height="196" key="GridCell.Tab.0.right/0.25.1440.808/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605892385965" />
     <state width="678" height="196" key="GridCell.Tab.0.right/0.25.1440.808@0.25.1440.808" timestamp="1605884529594" />
     <state width="1038" height="223" key="GridCell.Tab.0.right/0.25.1440.813/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605698012927" />
     <state width="1038" height="222" key="GridCell.Tab.0.right/0.25.1440.815@0.25.1440.815" timestamp="1605870825527" />
