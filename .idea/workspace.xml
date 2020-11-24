@@ -11,23 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eddfeb47-e2f0-4d5c-8b55-6d4a2b1e1c02" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Java/LockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/SynchronizedExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/ThreadPoolExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/ThreadPoolExceptionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/WaitSleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_25_MergeTwoLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_27_MirrorTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_28_IsSymmetric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_22_getKthFromEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_24_ReverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_29_SpiralOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_30_MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_33_VerifyPostOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_32_LevelOrder/Offer_32_1_LevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_32_LevelOrder/Offer_32_2_LevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_32_LevelOrder/Offer_32_3_LeverOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/Offer_34_PathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/Java/ThreadLearning$CallableExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/Java/ThreadLearning$RunnableExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/Java/ThreadLearning.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/ThreadLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ThreadCreateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_29_SpiralOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_29_SpiralOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_29_SpiralOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +66,13 @@
       <recent name="$PROJECT_DIR$/src/week1/unionFind" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Offer_29_SpiralOrder">
-    <configuration name="LockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.LockExample" />
+  <component name="RunManager" selected="Application.A_Offer_33_VerifyPostOrder">
+    <configuration name="A_Offer_29_SpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offerAlgorithm.A_Offer_29_SpiralOrder" />
       <module name="AlgorithmCoursera" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.*" />
+          <option name="PATTERN" value="offerAlgorithm.Offer_32_LevelOrder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Offer_29_SpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offerAlgorithm.Offer_29_SpiralOrder" />
+    <configuration name="A_Offer_33_VerifyPostOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offerAlgorithm.A_Offer_33_VerifyPostOrder" />
       <module name="AlgorithmCoursera" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="offerAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.LockExample" />
+      <module name="AlgorithmCoursera" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,33 +132,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.ThreadPoolExceptionExample" />
-      <module name="AlgorithmCoursera" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.ThreadPoolExceptionExample" />
       <item itemvalue="Application.ThreadPoolExample" />
       <item itemvalue="Application.LockExample" />
       <item itemvalue="Application.SynchronizedExample" />
-      <item itemvalue="Application.Offer_29_SpiralOrder" />
+      <item itemvalue="Application.A_Offer_29_SpiralOrder" />
+      <item itemvalue="Application.A_Offer_33_VerifyPostOrder" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Offer_29_SpiralOrder" />
+        <item itemvalue="Application.A_Offer_33_VerifyPostOrder" />
+        <item itemvalue="Application.A_Offer_29_SpiralOrder" />
         <item itemvalue="Application.SynchronizedExample" />
         <item itemvalue="Application.LockExample" />
         <item itemvalue="Application.ThreadPoolExample" />
-        <item itemvalue="Application.ThreadPoolExceptionExample" />
       </list>
     </recent_temporary>
   </component>
@@ -215,8 +207,8 @@
       <screen x="1440" y="-393" width="1080" height="1895" />
     </state>
     <state x="1709" y="-117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606163943439" />
-    <state width="1038" height="159" key="GridCell.Tab.0.bottom" timestamp="1606179491883">
-      <screen x="1440" y="-393" width="1080" height="1895" />
+    <state width="1238" height="161" key="GridCell.Tab.0.bottom" timestamp="1606225566519">
+      <screen x="0" y="25" width="1440" height="816" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.bottom/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
     <state width="1358" height="173" key="GridCell.Tab.0.bottom/0.25.1440.806/1440.-393.1080.1895@0.25.1440.806" timestamp="1605458577834" />
@@ -228,9 +220,10 @@
     <state width="1038" height="223" key="GridCell.Tab.0.bottom/0.25.1440.813/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605698012928" />
     <state width="1038" height="159" key="GridCell.Tab.0.bottom/0.25.1440.815/1440.-393.1080.1895@0.25.1440.815" timestamp="1606134952852" />
     <state width="1038" height="222" key="GridCell.Tab.0.bottom/0.25.1440.815@0.25.1440.815" timestamp="1605870825528" />
-    <state width="1038" height="159" key="GridCell.Tab.0.bottom/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606179491883" />
-    <state width="1038" height="159" key="GridCell.Tab.0.center" timestamp="1606179491882">
-      <screen x="1440" y="-393" width="1080" height="1895" />
+    <state width="1038" height="256" key="GridCell.Tab.0.bottom/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606180019690" />
+    <state width="1238" height="161" key="GridCell.Tab.0.bottom/0.25.1440.816@0.25.1440.816" timestamp="1606225566519" />
+    <state width="1238" height="161" key="GridCell.Tab.0.center" timestamp="1606225566518">
+      <screen x="0" y="25" width="1440" height="816" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.center/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
     <state width="1358" height="173" key="GridCell.Tab.0.center/0.25.1440.806/1440.-393.1080.1895@0.25.1440.806" timestamp="1605458577834" />
@@ -242,9 +235,10 @@
     <state width="1038" height="223" key="GridCell.Tab.0.center/0.25.1440.813/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605698012927" />
     <state width="1038" height="159" key="GridCell.Tab.0.center/0.25.1440.815/1440.-393.1080.1895@0.25.1440.815" timestamp="1606134952851" />
     <state width="1038" height="222" key="GridCell.Tab.0.center/0.25.1440.815@0.25.1440.815" timestamp="1605870825526" />
-    <state width="1038" height="159" key="GridCell.Tab.0.center/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606179491882" />
-    <state width="1038" height="159" key="GridCell.Tab.0.left" timestamp="1606179491881">
-      <screen x="1440" y="-393" width="1080" height="1895" />
+    <state width="1038" height="256" key="GridCell.Tab.0.center/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606180019689" />
+    <state width="1238" height="161" key="GridCell.Tab.0.center/0.25.1440.816@0.25.1440.816" timestamp="1606225566518" />
+    <state width="1238" height="161" key="GridCell.Tab.0.left" timestamp="1606225566518">
+      <screen x="0" y="25" width="1440" height="816" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.left/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971833" />
     <state width="1358" height="173" key="GridCell.Tab.0.left/0.25.1440.806/1440.-393.1080.1895@0.25.1440.806" timestamp="1605458577833" />
@@ -256,9 +250,10 @@
     <state width="1038" height="223" key="GridCell.Tab.0.left/0.25.1440.813/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605698012926" />
     <state width="1038" height="159" key="GridCell.Tab.0.left/0.25.1440.815/1440.-393.1080.1895@0.25.1440.815" timestamp="1606134952851" />
     <state width="1038" height="222" key="GridCell.Tab.0.left/0.25.1440.815@0.25.1440.815" timestamp="1605870825524" />
-    <state width="1038" height="159" key="GridCell.Tab.0.left/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606179491881" />
-    <state width="1038" height="159" key="GridCell.Tab.0.right" timestamp="1606179491882">
-      <screen x="1440" y="-393" width="1080" height="1895" />
+    <state width="1038" height="256" key="GridCell.Tab.0.left/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606180019689" />
+    <state width="1238" height="161" key="GridCell.Tab.0.left/0.25.1440.816@0.25.1440.816" timestamp="1606225566518" />
+    <state width="1238" height="161" key="GridCell.Tab.0.right" timestamp="1606225566519">
+      <screen x="0" y="25" width="1440" height="816" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.right/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
     <state width="1358" height="173" key="GridCell.Tab.0.right/0.25.1440.806/1440.-393.1080.1895@0.25.1440.806" timestamp="1605458577834" />
@@ -270,32 +265,34 @@
     <state width="1038" height="223" key="GridCell.Tab.0.right/0.25.1440.813/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605698012927" />
     <state width="1038" height="159" key="GridCell.Tab.0.right/0.25.1440.815/1440.-393.1080.1895@0.25.1440.815" timestamp="1606134952852" />
     <state width="1038" height="222" key="GridCell.Tab.0.right/0.25.1440.815@0.25.1440.815" timestamp="1605870825527" />
-    <state width="1038" height="159" key="GridCell.Tab.0.right/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606179491882" />
-    <state width="1038" height="256" key="GridCell.Tab.1.bottom" timestamp="1606177575059">
+    <state width="1038" height="256" key="GridCell.Tab.0.right/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606180019690" />
+    <state width="1238" height="161" key="GridCell.Tab.0.right/0.25.1440.816@0.25.1440.816" timestamp="1606225566519" />
+    <state width="1038" height="256" key="GridCell.Tab.1.bottom" timestamp="1606180019692">
       <screen x="1440" y="-393" width="1080" height="1895" />
     </state>
     <state width="1038" height="256" key="GridCell.Tab.1.bottom/0.25.1440.815/1440.-393.1080.1895@0.25.1440.815" timestamp="1606117097918" />
-    <state width="1038" height="256" key="GridCell.Tab.1.bottom/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606177575059" />
-    <state width="1038" height="256" key="GridCell.Tab.1.center" timestamp="1606177575058">
+    <state width="1038" height="256" key="GridCell.Tab.1.bottom/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606180019692" />
+    <state width="1038" height="256" key="GridCell.Tab.1.center" timestamp="1606180019691">
       <screen x="1440" y="-393" width="1080" height="1895" />
     </state>
     <state width="1038" height="256" key="GridCell.Tab.1.center/0.25.1440.815/1440.-393.1080.1895@0.25.1440.815" timestamp="1606117097917" />
-    <state width="1038" height="256" key="GridCell.Tab.1.center/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606177575058" />
-    <state width="1038" height="256" key="GridCell.Tab.1.left" timestamp="1606177575058">
+    <state width="1038" height="256" key="GridCell.Tab.1.center/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606180019691" />
+    <state width="1038" height="256" key="GridCell.Tab.1.left" timestamp="1606180019690">
       <screen x="1440" y="-393" width="1080" height="1895" />
     </state>
     <state width="1038" height="256" key="GridCell.Tab.1.left/0.25.1440.815/1440.-393.1080.1895@0.25.1440.815" timestamp="1606117097917" />
-    <state width="1038" height="256" key="GridCell.Tab.1.left/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606177575058" />
-    <state width="1038" height="256" key="GridCell.Tab.1.right" timestamp="1606177575058">
+    <state width="1038" height="256" key="GridCell.Tab.1.left/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606180019690" />
+    <state width="1038" height="256" key="GridCell.Tab.1.right" timestamp="1606180019691">
       <screen x="1440" y="-393" width="1080" height="1895" />
     </state>
     <state width="1038" height="256" key="GridCell.Tab.1.right/0.25.1440.815/1440.-393.1080.1895@0.25.1440.815" timestamp="1606117097918" />
-    <state width="1038" height="256" key="GridCell.Tab.1.right/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606177575058" />
-    <state x="1738" y="19" width="503" height="1589" key="run.anything.popup" timestamp="1606163311531">
-      <screen x="1440" y="-393" width="1080" height="1895" />
+    <state width="1038" height="256" key="GridCell.Tab.1.right/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606180019691" />
+    <state x="397" y="202" width="671" height="685" key="run.anything.popup" timestamp="1606212163571">
+      <screen x="0" y="25" width="1440" height="816" />
     </state>
     <state x="397" y="200" width="670" height="675" key="run.anything.popup/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605656116230" />
     <state x="1738" y="19" width="503" height="1589" key="run.anything.popup/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606163311531" />
+    <state x="397" y="202" width="671" height="685" key="run.anything.popup/0.25.1440.816@0.25.1440.816" timestamp="1606212163571" />
   </component>
   <component name="masterDetails">
     <states>
