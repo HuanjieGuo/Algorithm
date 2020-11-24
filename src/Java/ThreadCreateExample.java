@@ -2,7 +2,7 @@ package Java;
 
 import java.util.concurrent.Callable;
 
-public class ThreadLearning extends Thread{
+public class ThreadCreateExample extends Thread{
     @Override
     public void run() {
         super.run();
@@ -29,7 +29,6 @@ public class ThreadLearning extends Thread{
         try {
             ru.run(); // void
             Object object = ex.call(); // 返回object
-
         } catch (Exception e) {
             e.printStackTrace();
         }
