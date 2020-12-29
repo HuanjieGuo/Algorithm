@@ -11,12 +11,140 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eddfeb47-e2f0-4d5c-8b55-6d4a2b1e1c02" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_47_MaxValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_48_LengthOfLongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_49_NthUglyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_56_1_SingleNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_56_2_SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_60_DicesProbability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_63_MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_64_SumNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_65_Add.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/Java/LockExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/Java/SynchronizedExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/Java/ThreadCreateExample$CallableExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/Java/ThreadCreateExample$RunnableExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/Java/ThreadCreateExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/Java/ThreadPoolExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/Java/ThreadPoolExceptionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/Java/WaitSleep$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/Java/WaitSleep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/dataStructure/RedBlackTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/dataStructure/RedBlackTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/dataStructure/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/dataStructure/node1/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/dataStructure/node2/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0001_TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0002_AddTwoNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0003_LengthOfLongestSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0004_FindMedianSortedArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0005_LongestPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0006_Convert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0007_Reverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0009_IsPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0011_MaxArea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0012_IntToRoman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0013_RomanToInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0014_LongestCommonPrefix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0015_ThreeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0016_ThreeSumClosest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0017_LetterCombinations$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0017_LetterCombinations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0018_FourSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0019_RemoveNthFromEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0020_IsValid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0021_MergeTwoLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0022_GenerateParenthesis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0023_MergeKLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0024_SwapPairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0025_ReverseKGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0026_RemoveDuplicates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0027_RemoveElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0028_StrStr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0030_FindSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0031_NextPermutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A0070_ClimbStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/A9999_LongestCommonSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/structure/BM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/structure/KMP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/leetcode/structure/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_04_FindNumberIn2DArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_06_ReversePrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_07_BuildTree/Offer_07_BuildTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_07_BuildTree/Offer_07_BuildTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_07_BuildTree/Offer_07_BuildTree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_12_RouteInMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_13_MovingCountInMaxtrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_14_CuttingRope/A_Offer_14_CuttingRope_IntLimt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_14_CuttingRope/A_Offer_14_CuttingRope_NoIntLimt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_15_HammingWeight/A_Offer_15_HammingWeight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_15_HammingWeight/A_Offer_15_HammingWeight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_16_MyPow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_25_MergeTwoLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_26_IsSubStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_27_MirrorTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_28_IsSymmetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_29_SpiralOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_30_MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_31_ValidateStackSequences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_33_VerifyPostOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_34_PathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_35_CopyRandomList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_36_TreeToDoubleList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_38_Permutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_40_GetLeastNumbers$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_40_GetLeastNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_42_MaxSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_44/16836ca609f8b4d9af776b35eab4a4c4a86d76f4628a1bc931e56d197617bbb4-Picture2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_44/A_Offer_44_FindNthDigit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_45_MinNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_46_TranslateNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_47_MaxValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_48_LengthOfLongestSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_49_NthUglyNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_52_GetIntersectionNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_53/A_Offer_53_2_MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_53/Offer_53_1_Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_54_KthLargest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_55/Offer_55_1_MaxDepth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_55/Offer_55_2_IsBalanced.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_56_1_SingleNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_56_2_SingleNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_59/A_Offer_59_1_MaxSlidingWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_59/A_Offer_59_2_MaxQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_62_LastRemaining/68509352d82d4a19678ed67a5bde338f86c7d0da730e3a69546f6fa61fb0063c-约瑟夫环2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_62_LastRemaining/Offer_62_LastRemaining.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_62_LastRemaining/Offer_62_LastRemaining.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_68_CommonAncestor/A_Offer_68_1_LowestCommonAncestor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_68_CommonAncestor/A_Offer_68_2_LowestCommonAncestor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Ranking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_03_FindRepeatNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_05_ReplaceSpace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_09_CQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_10_1_Fib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_10_2_numWaysStair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_11_MinArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_17_PrintNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_18_DeleteNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_20_IsNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_21_Exchange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_22_getKthFromEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_24_ReverseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_32_LevelOrder/Offer_32_1_LevelOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_32_LevelOrder/Offer_32_2_LevelOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_32_LevelOrder/Offer_32_3_LeverOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_32_LevelOrder/Offer_39_majorityElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_50_FirstUniqChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_57_2/A_Offer_57_2_FindContinuousSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_57_2/Offer_57_1_TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_58_String/Offer_58_1_ReverseWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_58_String/Offer_58_ReverseLeftWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/Offer_61_IsStraight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/other/Percolation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/other/PercolationStats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/other/StringAdding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/week1/unionFind/QuickFindUF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/week1/unionFind/QuickUnionUF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/week1/unionFind/RunTime.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/week1/unionFind/algs4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/LockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/LockExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_56_2_SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_56_2_SingleNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,20 +191,7 @@
       <recent name="$PROJECT_DIR$/src/week1/unionFind" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A_Offer_56_2_SingleNumber">
-    <configuration name="A_Offer_38_Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offerAlgorithm.A_Offer_38_Permutation" />
-      <module name="AlgorithmCoursera" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="offerAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.A_Offer_60_DicesProbability">
     <configuration name="A_Offer_46_TranslateNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offerAlgorithm.A_Offer_46_TranslateNum" />
       <module name="AlgorithmCoursera" />
@@ -129,20 +244,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="A_Offer_60_DicesProbability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offerAlgorithm.A_Offer_60_DicesProbability" />
+      <module name="AlgorithmCoursera" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="offerAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.A_Offer_38_Permutation" />
       <item itemvalue="Application.A_Offer_46_TranslateNum" />
       <item itemvalue="Application.A_Offer_48_LengthOfLongestSubstring" />
       <item itemvalue="Application.A_Offer_56_1_SingleNumbers" />
       <item itemvalue="Application.A_Offer_56_2_SingleNumber" />
+      <item itemvalue="Application.A_Offer_60_DicesProbability" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A_Offer_60_DicesProbability" />
         <item itemvalue="Application.A_Offer_56_2_SingleNumber" />
         <item itemvalue="Application.A_Offer_56_1_SingleNumbers" />
         <item itemvalue="Application.A_Offer_48_LengthOfLongestSubstring" />
         <item itemvalue="Application.A_Offer_46_TranslateNum" />
-        <item itemvalue="Application.A_Offer_38_Permutation" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +336,7 @@
       <screen x="1440" y="-393" width="1080" height="1895" />
     </state>
     <state x="1709" y="-117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606163943439" />
-    <state width="459" height="161" key="GridCell.Tab.0.bottom" timestamp="1609159085404">
+    <state width="459" height="156" key="GridCell.Tab.0.bottom" timestamp="1609241627536">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.bottom/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
@@ -218,7 +346,7 @@
     <state width="1038" height="196" key="GridCell.Tab.0.bottom/0.25.1440.808/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605892385965" />
     <state width="1038" height="161" key="GridCell.Tab.0.bottom/0.25.1440.808@0.25.1440.808" timestamp="1606901273891" />
     <state width="1038" height="162" key="GridCell.Tab.0.bottom/0.25.1440.810/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606752190914" />
-    <state width="918" height="161" key="GridCell.Tab.0.bottom/0.25.1440.810/1440.25.1920.1055@0.25.1440.810" timestamp="1609151074393" />
+    <state width="459" height="161" key="GridCell.Tab.0.bottom/0.25.1440.810/1440.25.1920.1055@0.25.1440.810" timestamp="1609160514246" />
     <state width="1038" height="162" key="GridCell.Tab.0.bottom/0.25.1440.810@0.25.1440.810" timestamp="1606749114782" />
     <state width="1038" height="223" key="GridCell.Tab.0.bottom/0.25.1440.813/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605698012928" />
     <state width="1038" height="159" key="GridCell.Tab.0.bottom/0.25.1440.815/1440.-393.1080.1895@0.25.1440.815" timestamp="1606134952852" />
@@ -228,8 +356,9 @@
     <state width="1238" height="161" key="GridCell.Tab.0.bottom/0.25.1440.816@0.25.1440.816" timestamp="1606225566519" />
     <state width="1238" height="161" key="GridCell.Tab.0.bottom/0.25.1440.819/1440.-393.1080.1895@0.25.1440.819" timestamp="1606237488882" />
     <state width="1238" height="161" key="GridCell.Tab.0.bottom/0.25.1440.822/1440.-393.1080.1895@0.25.1440.822" timestamp="1606324411207" />
-    <state width="459" height="161" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159085404" />
-    <state width="459" height="161" key="GridCell.Tab.0.center" timestamp="1609159085403">
+    <state width="459" height="161" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212172" />
+    <state width="459" height="156" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609241627536" />
+    <state width="459" height="156" key="GridCell.Tab.0.center" timestamp="1609241627535">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.center/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
@@ -239,7 +368,7 @@
     <state width="1038" height="196" key="GridCell.Tab.0.center/0.25.1440.808/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605892385964" />
     <state width="1038" height="161" key="GridCell.Tab.0.center/0.25.1440.808@0.25.1440.808" timestamp="1606901273890" />
     <state width="1038" height="162" key="GridCell.Tab.0.center/0.25.1440.810/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606752190913" />
-    <state width="918" height="161" key="GridCell.Tab.0.center/0.25.1440.810/1440.25.1920.1055@0.25.1440.810" timestamp="1609151074392" />
+    <state width="459" height="161" key="GridCell.Tab.0.center/0.25.1440.810/1440.25.1920.1055@0.25.1440.810" timestamp="1609160514245" />
     <state width="1038" height="162" key="GridCell.Tab.0.center/0.25.1440.810@0.25.1440.810" timestamp="1606749114781" />
     <state width="1038" height="223" key="GridCell.Tab.0.center/0.25.1440.813/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605698012927" />
     <state width="1038" height="159" key="GridCell.Tab.0.center/0.25.1440.815/1440.-393.1080.1895@0.25.1440.815" timestamp="1606134952851" />
@@ -249,8 +378,9 @@
     <state width="1238" height="161" key="GridCell.Tab.0.center/0.25.1440.816@0.25.1440.816" timestamp="1606225566518" />
     <state width="1238" height="161" key="GridCell.Tab.0.center/0.25.1440.819/1440.-393.1080.1895@0.25.1440.819" timestamp="1606237488881" />
     <state width="1238" height="161" key="GridCell.Tab.0.center/0.25.1440.822/1440.-393.1080.1895@0.25.1440.822" timestamp="1606324411206" />
-    <state width="459" height="161" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159085403" />
-    <state width="459" height="161" key="GridCell.Tab.0.left" timestamp="1609159085403">
+    <state width="459" height="161" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212172" />
+    <state width="459" height="156" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609241627535" />
+    <state width="459" height="156" key="GridCell.Tab.0.left" timestamp="1609241627535">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.left/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971833" />
@@ -260,7 +390,7 @@
     <state width="1038" height="196" key="GridCell.Tab.0.left/0.25.1440.808/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605892385964" />
     <state width="1038" height="161" key="GridCell.Tab.0.left/0.25.1440.808@0.25.1440.808" timestamp="1606901273890" />
     <state width="1038" height="162" key="GridCell.Tab.0.left/0.25.1440.810/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606752190911" />
-    <state width="918" height="161" key="GridCell.Tab.0.left/0.25.1440.810/1440.25.1920.1055@0.25.1440.810" timestamp="1609151074391" />
+    <state width="459" height="161" key="GridCell.Tab.0.left/0.25.1440.810/1440.25.1920.1055@0.25.1440.810" timestamp="1609160514245" />
     <state width="1038" height="162" key="GridCell.Tab.0.left/0.25.1440.810@0.25.1440.810" timestamp="1606749114780" />
     <state width="1038" height="223" key="GridCell.Tab.0.left/0.25.1440.813/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605698012926" />
     <state width="1038" height="159" key="GridCell.Tab.0.left/0.25.1440.815/1440.-393.1080.1895@0.25.1440.815" timestamp="1606134952851" />
@@ -270,8 +400,9 @@
     <state width="1238" height="161" key="GridCell.Tab.0.left/0.25.1440.816@0.25.1440.816" timestamp="1606225566518" />
     <state width="1238" height="161" key="GridCell.Tab.0.left/0.25.1440.819/1440.-393.1080.1895@0.25.1440.819" timestamp="1606237488880" />
     <state width="1238" height="161" key="GridCell.Tab.0.left/0.25.1440.822/1440.-393.1080.1895@0.25.1440.822" timestamp="1606324411204" />
-    <state width="459" height="161" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159085403" />
-    <state width="459" height="161" key="GridCell.Tab.0.right" timestamp="1609159085404">
+    <state width="459" height="161" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212171" />
+    <state width="459" height="156" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609241627535" />
+    <state width="459" height="156" key="GridCell.Tab.0.right" timestamp="1609241627536">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.right/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
@@ -281,7 +412,7 @@
     <state width="1038" height="196" key="GridCell.Tab.0.right/0.25.1440.808/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605892385965" />
     <state width="1038" height="161" key="GridCell.Tab.0.right/0.25.1440.808@0.25.1440.808" timestamp="1606901273891" />
     <state width="1038" height="162" key="GridCell.Tab.0.right/0.25.1440.810/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606752190913" />
-    <state width="918" height="161" key="GridCell.Tab.0.right/0.25.1440.810/1440.25.1920.1055@0.25.1440.810" timestamp="1609151074392" />
+    <state width="459" height="161" key="GridCell.Tab.0.right/0.25.1440.810/1440.25.1920.1055@0.25.1440.810" timestamp="1609160514246" />
     <state width="1038" height="162" key="GridCell.Tab.0.right/0.25.1440.810@0.25.1440.810" timestamp="1606749114781" />
     <state width="1038" height="223" key="GridCell.Tab.0.right/0.25.1440.813/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1605698012927" />
     <state width="1038" height="159" key="GridCell.Tab.0.right/0.25.1440.815/1440.-393.1080.1895@0.25.1440.815" timestamp="1606134952852" />
@@ -291,7 +422,8 @@
     <state width="1238" height="161" key="GridCell.Tab.0.right/0.25.1440.816@0.25.1440.816" timestamp="1606225566519" />
     <state width="1238" height="161" key="GridCell.Tab.0.right/0.25.1440.819/1440.-393.1080.1895@0.25.1440.819" timestamp="1606237488882" />
     <state width="1238" height="161" key="GridCell.Tab.0.right/0.25.1440.822/1440.-393.1080.1895@0.25.1440.822" timestamp="1606324411206" />
-    <state width="459" height="161" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159085404" />
+    <state width="459" height="161" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212172" />
+    <state width="459" height="156" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609241627536" />
     <state width="1038" height="256" key="GridCell.Tab.1.bottom" timestamp="1606180019692">
       <screen x="1440" y="-393" width="1080" height="1895" />
     </state>
