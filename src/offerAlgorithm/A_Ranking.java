@@ -64,18 +64,14 @@ public class A_Ranking {
                     arr[right] = arr[left];
                     right--;
                     rightIsNull = !rightIsNull;
-                }else {
-                    left++;
-                }
+                }else left++;
             }else {
                 // 移动右指针
                 if(arr[right]<pivot){
                     arr[left] = arr[right];
                     left++;
                     rightIsNull = !rightIsNull;
-                }else {
-                    right--;
-                }
+                }else right--;
             }
         }
         // pivot放置到空的位置 left right都行
