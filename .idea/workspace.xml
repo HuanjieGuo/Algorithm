@@ -11,19 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eddfeb47-e2f0-4d5c-8b55-6d4a2b1e1c02" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/huawei/DrinkBottle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/A0146_LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/niuke/GetLeastNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/niuke/HasCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/niuke/LRU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/niuke/ThreeOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/niuke/UpperBound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_19_IsMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_37_Codec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_66_ConstructArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/LevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Ranking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Ranking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offerAlgorithm/A_Ranking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Ranking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/GetLeastNumbers$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/GetLeastNumbers$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/GetLeastNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/GetLeastNumbers.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,33 +62,7 @@
       <recent name="$PROJECT_DIR$/src/week1/unionFind" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetLeastNumbers">
-    <configuration name="A_Offer_66_ConstructArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offerAlgorithm.A_Offer_66_ConstructArr" />
-      <module name="AlgorithmCoursera" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="offerAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DrinkBottle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="huawei.DrinkBottle" />
-      <module name="AlgorithmCoursera" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="huawei.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LevelOrder">
     <configuration name="GetLeastNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="niuke.GetLeastNumbers" />
       <module name="AlgorithmCoursera" />
@@ -123,6 +89,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niuke.LevelOrder" />
+      <module name="AlgorithmCoursera" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="niuke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niuke.QuickSort" />
+      <module name="AlgorithmCoursera" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="niuke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UpperBound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="niuke.UpperBound" />
       <module name="AlgorithmCoursera" />
@@ -137,19 +129,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A_Offer_66_ConstructArr" />
-      <item itemvalue="Application.DrinkBottle" />
       <item itemvalue="Application.LRU" />
       <item itemvalue="Application.UpperBound" />
       <item itemvalue="Application.GetLeastNumbers" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.LevelOrder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LevelOrder" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.GetLeastNumbers" />
         <item itemvalue="Application.UpperBound" />
         <item itemvalue="Application.LRU" />
-        <item itemvalue="Application.A_Offer_66_ConstructArr" />
-        <item itemvalue="Application.DrinkBottle" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +207,7 @@
       <screen x="1440" y="-393" width="1080" height="1895" />
     </state>
     <state x="1709" y="-117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606163943439" />
-    <state width="580" height="130" key="GridCell.Tab.0.bottom" timestamp="1611077932868">
+    <state width="580" height="130" key="GridCell.Tab.0.bottom" timestamp="1611143784435">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.bottom/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
@@ -241,8 +233,8 @@
     <state width="459" height="156" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-393.1080.1846@0.25.1440.875" timestamp="1609260930012" />
     <state width="459" height="161" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212172" />
     <state width="459" height="156" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609245972608" />
-    <state width="580" height="130" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1611077932868" />
-    <state width="580" height="130" key="GridCell.Tab.0.center" timestamp="1611077932867">
+    <state width="580" height="130" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1611143784435" />
+    <state width="580" height="130" key="GridCell.Tab.0.center" timestamp="1611143784434">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.center/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
@@ -268,8 +260,8 @@
     <state width="459" height="156" key="GridCell.Tab.0.center/0.25.1440.875/1440.-393.1080.1846@0.25.1440.875" timestamp="1609260930010" />
     <state width="459" height="161" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212172" />
     <state width="459" height="156" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609245972607" />
-    <state width="580" height="130" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1611077932867" />
-    <state width="580" height="130" key="GridCell.Tab.0.left" timestamp="1611077932865">
+    <state width="580" height="130" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1611143784434" />
+    <state width="580" height="130" key="GridCell.Tab.0.left" timestamp="1611143784433">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.left/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971833" />
@@ -295,8 +287,8 @@
     <state width="459" height="156" key="GridCell.Tab.0.left/0.25.1440.875/1440.-393.1080.1846@0.25.1440.875" timestamp="1609260930010" />
     <state width="459" height="161" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212171" />
     <state width="459" height="156" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609245972606" />
-    <state width="580" height="130" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1611077932865" />
-    <state width="580" height="130" key="GridCell.Tab.0.right" timestamp="1611077932867">
+    <state width="580" height="130" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1611143784433" />
+    <state width="580" height="130" key="GridCell.Tab.0.right" timestamp="1611143784434">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.right/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
@@ -322,7 +314,7 @@
     <state width="459" height="156" key="GridCell.Tab.0.right/0.25.1440.875/1440.-393.1080.1846@0.25.1440.875" timestamp="1609260930011" />
     <state width="459" height="161" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212172" />
     <state width="459" height="156" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609245972607" />
-    <state width="580" height="130" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1611077932867" />
+    <state width="580" height="130" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1611143784434" />
     <state width="1038" height="256" key="GridCell.Tab.1.bottom" timestamp="1606180019692">
       <screen x="1440" y="-393" width="1080" height="1895" />
     </state>
