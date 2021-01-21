@@ -1,6 +1,6 @@
 package niuke;
 
-public class HasCycle {
+public class A_HasCycle {
     public boolean hasCycle(ListNode head) {
         if(head==null) return false;
         ListNode ahead = head;

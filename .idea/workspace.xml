@@ -11,11 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eddfeb47-e2f0-4d5c-8b55-6d4a2b1e1c02" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/niuke/LevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/niuke/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/A_DetectCycleEnterPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/A_MergeTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/A_RemoveNthFromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/JumpFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/MaxLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/TwoStackToQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/GetLeastNumbers$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/GetLeastNumbers$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/GetLeastNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/GetLeastNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/LevelOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/LevelOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/niuke/HasCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/niuke/A_HasCycle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +67,7 @@
       <recent name="$PROJECT_DIR$/src/week1/unionFind" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LevelOrder">
+  <component name="RunManager" selected="Application.MaxLength">
     <configuration name="GetLeastNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="niuke.GetLeastNumbers" />
       <module name="AlgorithmCoursera" />
@@ -76,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="niuke.LRU" />
+    <configuration name="LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niuke.LevelOrder" />
       <module name="AlgorithmCoursera" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="niuke.LevelOrder" />
+    <configuration name="MaxLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niuke.MaxLength" />
       <module name="AlgorithmCoursera" />
       <extension name="coverage">
         <pattern>
@@ -129,19 +134,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LRU" />
       <item itemvalue="Application.UpperBound" />
       <item itemvalue="Application.GetLeastNumbers" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.LevelOrder" />
+      <item itemvalue="Application.MaxLength" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxLength" />
         <item itemvalue="Application.LevelOrder" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.GetLeastNumbers" />
         <item itemvalue="Application.UpperBound" />
-        <item itemvalue="Application.LRU" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +212,7 @@
       <screen x="1440" y="-393" width="1080" height="1895" />
     </state>
     <state x="1709" y="-117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606163943439" />
-    <state width="580" height="130" key="GridCell.Tab.0.bottom" timestamp="1611143784435">
+    <state width="580" height="130" key="GridCell.Tab.0.bottom" timestamp="1611240305699">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.bottom/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
@@ -233,8 +238,8 @@
     <state width="459" height="156" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-393.1080.1846@0.25.1440.875" timestamp="1609260930012" />
     <state width="459" height="161" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212172" />
     <state width="459" height="156" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609245972608" />
-    <state width="580" height="130" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1611143784435" />
-    <state width="580" height="130" key="GridCell.Tab.0.center" timestamp="1611143784434">
+    <state width="580" height="130" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1611240305699" />
+    <state width="580" height="130" key="GridCell.Tab.0.center" timestamp="1611240305698">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.center/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
@@ -260,8 +265,8 @@
     <state width="459" height="156" key="GridCell.Tab.0.center/0.25.1440.875/1440.-393.1080.1846@0.25.1440.875" timestamp="1609260930010" />
     <state width="459" height="161" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212172" />
     <state width="459" height="156" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609245972607" />
-    <state width="580" height="130" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1611143784434" />
-    <state width="580" height="130" key="GridCell.Tab.0.left" timestamp="1611143784433">
+    <state width="580" height="130" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1611240305698" />
+    <state width="580" height="130" key="GridCell.Tab.0.left" timestamp="1611240305697">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.left/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971833" />
@@ -287,8 +292,8 @@
     <state width="459" height="156" key="GridCell.Tab.0.left/0.25.1440.875/1440.-393.1080.1846@0.25.1440.875" timestamp="1609260930010" />
     <state width="459" height="161" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212171" />
     <state width="459" height="156" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609245972606" />
-    <state width="580" height="130" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1611143784433" />
-    <state width="580" height="130" key="GridCell.Tab.0.right" timestamp="1611143784434">
+    <state width="580" height="130" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1611240305697" />
+    <state width="580" height="130" key="GridCell.Tab.0.right" timestamp="1611240305698">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.right/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
@@ -314,7 +319,7 @@
     <state width="459" height="156" key="GridCell.Tab.0.right/0.25.1440.875/1440.-393.1080.1846@0.25.1440.875" timestamp="1609260930011" />
     <state width="459" height="161" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212172" />
     <state width="459" height="156" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609245972607" />
-    <state width="580" height="130" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1611143784434" />
+    <state width="580" height="130" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1611240305698" />
     <state width="1038" height="256" key="GridCell.Tab.1.bottom" timestamp="1606180019692">
       <screen x="1440" y="-393" width="1080" height="1895" />
     </state>
