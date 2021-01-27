@@ -32,7 +32,7 @@ public class Penetrate {
             pStream.flush();
 
             sBuffer = new StringBuffer(300);
-            while (true) {     //读取Server返回来的数据，直到读到登陆标识，这个时候认为可以输入用户名
+            while (true) {
                 size = inputStream.read(b);
                 if (-1 != size) {
                     sBuffer.append(new String(b, 0, size));
