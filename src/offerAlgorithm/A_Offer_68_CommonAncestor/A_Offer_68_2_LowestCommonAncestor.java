@@ -36,16 +36,14 @@ public class A_Offer_68_2_LowestCommonAncestor {
      * 后序遍历！
      */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if(root==null) return null;
-        if(root==p||root==q) return root==p?p:q;
+        // 自上向下
+        if(root==null||root==p||root==q) return root;
         TreeNode left = lowestCommonAncestor(root.left,p,q);
         TreeNode right = lowestCommonAncestor(root.right,p,q);
-        // 不可以判断left!=null return left.
-        // 本处三种情况！ left != null,  right != null, left!=null and right!=null
-        // the final situation should return root itself.
-
-        if (left==null) return right;
-        if (right==null) return left;
+        //自下向上
+        if(left==null&&right==null) return null;
+        if(left==null) return right;
+        if(right==null) return left;
         return root;
     }
 }
