@@ -11,13 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eddfeb47-e2f0-4d5c-8b55-6d4a2b1e1c02" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/niuke/A_AddIntList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/niuke/LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/BigNumberAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/LeastCommonMultiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/ZigzagLevelOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/A_LCS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/A_LCS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/niuke/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/niuke/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_68_CommonAncestor/A_Offer_68_2_LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offerAlgorithm/A_Offer_68_CommonAncestor/A_Offer_68_2_LowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/niuke/LowestCommonAncestor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_68_CommonAncestor/A_Offer_68_2_LowestCommonAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmCoursera/offerAlgorithm/A_Offer_68_CommonAncestor/A_Offer_68_2_LowestCommonAncestor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/niuke/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/niuke/A_LowestCommonAncestor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <recent name="$PROJECT_DIR$/src/week1/unionFind" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LowestCommonAncestor">
+  <component name="RunManager" selected="Application.LeastCommonMultiple">
     <configuration name="A_LCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="niuke.A_LCS" />
       <module name="AlgorithmCoursera" />
@@ -78,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="niuke.LowestCommonAncestor" />
+    <configuration name="A_LowestCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niuke.A_LowestCommonAncestor" />
       <module name="AlgorithmCoursera" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="niuke.MaxLength" />
+    <configuration name="LeastCommonMultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niuke.LeastCommonMultiple" />
       <module name="AlgorithmCoursera" />
       <extension name="coverage">
         <pattern>
@@ -132,18 +132,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.MaxLength" />
       <item itemvalue="Application.Penetrate" />
       <item itemvalue="Application.A_LCS" />
-      <item itemvalue="Application.LowestCommonAncestor" />
+      <item itemvalue="Application.A_LowestCommonAncestor" />
+      <item itemvalue="Application.LeastCommonMultiple" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LowestCommonAncestor" />
+        <item itemvalue="Application.LeastCommonMultiple" />
+        <item itemvalue="Application.A_LowestCommonAncestor" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.A_LCS" />
         <item itemvalue="Application.Penetrate" />
-        <item itemvalue="Application.MaxLength" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +209,7 @@
       <screen x="1440" y="-393" width="1080" height="1895" />
     </state>
     <state x="1709" y="-117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.816/1440.-393.1080.1895@1440.-393.1080.1895" timestamp="1606163943439" />
-    <state width="698" height="285" key="GridCell.Tab.0.bottom" timestamp="1612014207064">
+    <state width="698" height="243" key="GridCell.Tab.0.bottom" timestamp="1612298927338">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.bottom/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
@@ -236,8 +236,8 @@
     <state width="580" height="130" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-393.1080.1895@0.25.1440.875" timestamp="1611265791720" />
     <state width="459" height="161" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212172" />
     <state width="459" height="156" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609245972608" />
-    <state width="698" height="285" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1612014207064" />
-    <state width="698" height="285" key="GridCell.Tab.0.center" timestamp="1612014207063">
+    <state width="698" height="243" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1612298927338" />
+    <state width="698" height="243" key="GridCell.Tab.0.center" timestamp="1612298927336">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.center/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
@@ -264,8 +264,8 @@
     <state width="580" height="130" key="GridCell.Tab.0.center/0.25.1440.875/1440.-393.1080.1895@0.25.1440.875" timestamp="1611265791716" />
     <state width="459" height="161" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212172" />
     <state width="459" height="156" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609245972607" />
-    <state width="698" height="285" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1612014207063" />
-    <state width="698" height="285" key="GridCell.Tab.0.left" timestamp="1612014207062">
+    <state width="698" height="243" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1612298927336" />
+    <state width="698" height="243" key="GridCell.Tab.0.left" timestamp="1612298927336">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.left/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971833" />
@@ -292,8 +292,8 @@
     <state width="580" height="130" key="GridCell.Tab.0.left/0.25.1440.875/1440.-393.1080.1895@0.25.1440.875" timestamp="1611265791705" />
     <state width="459" height="161" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212171" />
     <state width="459" height="156" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609245972606" />
-    <state width="698" height="285" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1612014207062" />
-    <state width="698" height="285" key="GridCell.Tab.0.right" timestamp="1612014207063">
+    <state width="698" height="243" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1612298927336" />
+    <state width="698" height="243" key="GridCell.Tab.0.right" timestamp="1612298927337">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1358" height="173" key="GridCell.Tab.0.right/0.25.1440.805/1440.-393.1080.1895@0.25.1440.805" timestamp="1605657971834" />
@@ -320,7 +320,7 @@
     <state width="580" height="130" key="GridCell.Tab.0.right/0.25.1440.875/1440.-393.1080.1895@0.25.1440.875" timestamp="1611265791719" />
     <state width="459" height="161" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.974@0.25.1440.875" timestamp="1609159212172" />
     <state width="459" height="156" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.976@0.25.1440.875" timestamp="1609245972607" />
-    <state width="698" height="285" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1612014207063" />
+    <state width="698" height="243" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1612298927337" />
     <state width="1038" height="256" key="GridCell.Tab.1.bottom" timestamp="1606180019692">
       <screen x="1440" y="-393" width="1080" height="1895" />
     </state>

@@ -5,7 +5,7 @@ import dataStructure.TreeNode;
 /**
  *  find the common ancester
  */
-public class LowestCommonAncestor {
+public class A_LowestCommonAncestor {
     int ancestor = -1;
     // 1找到   0没找到
     public int lowestCommonAncestor (TreeNode root, int o1, int o2) {
@@ -29,7 +29,7 @@ public class LowestCommonAncestor {
         TreeNode node2 = new TreeNode(1);
         root.left = node1;
         root.right = node2;
-        System.out.println(new LowestCommonAncestor().lowestCommonAncestor(root,3,1));
+        System.out.println(new A_LowestCommonAncestor().lowestCommonAncestor(root,3,1));
     }
 
 
