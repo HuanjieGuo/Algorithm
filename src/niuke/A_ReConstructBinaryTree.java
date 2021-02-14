@@ -35,6 +35,7 @@ public class A_ReConstructBinaryTree {
         if(preL>preR||inL>inR) return null;
         TreeNode treeNode = new TreeNode(pre[preL]);
         int pivot = indexOfIn.get(pre[preL]);
+        // 本处画图！
         treeNode.left = buildTreeBI(preL+1,(preL+1)+(pivot-1-inL)
                 ,inL,pivot-1);
         treeNode.right = buildTreeBI((preL+1)+(pivot-1-inL)+1,preR,
