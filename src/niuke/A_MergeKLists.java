@@ -19,28 +19,38 @@ import java.util.ArrayList;
 
 public class A_MergeKLists {
     /**
-     * 合并2个的思路  执行N次
+     * 合并2个的思路   K组用归并， 2个2个合并
      * @param lists
      * @return
      */
+    ArrayList<ListNode> lists;
     public ListNode mergeKLists(ArrayList<ListNode> lists) {
-        ListNode merge = null;
-        for(ListNode list:lists)
-           merge =  mergeTwo(merge,list);
-        return merge;
+        if(lists.size()==0||lists==null) return null;
+        this.lists = lists;
+        return mergeSubLists(0,lists.size()-1);
+
     }
 
-    ListNode mergeTwo(ListNode list1,ListNode list2){
-        if(list1==null) return list2;
-        if (list2==null) return list1;
-        if(list1.val<list2.val) {
-            list1.next = mergeTwo(list1.next, list2);
-            return list1;
-        } else {
-            list2.next = mergeTwo(list2.next,list1);
-            return list2;
+    public ListNode mergeSubLists(int left,int right){
+        if(left>=right) return lists.get(left);
+        // 接下来的right -left > 1 有2条最起码
+        int mid = (left+right)/2;
+        ListNode l1 = mergeSubLists(left,mid);
+        ListNode l2 = mergeSubLists(mid+1,right);
+        return merge(l1,l2);
+    }
+
+    ListNode merge(ListNode l1,ListNode l2){
+        if(l1==null) return l2;
+        if(l2==null) return l1;
+        if(l1.val>l2.val) {
+            l2.next = merge(l1,l2.next);
+            return l2;
+        }else {
+            l1.next = merge(l2,l1.next);
+            return l1;
         }
-
-
     }
+
+
 }

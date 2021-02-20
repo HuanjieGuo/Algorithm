@@ -28,6 +28,7 @@ public class ThreeSum {
         Arrays.sort(num);
         //
         for(int i=0;i<len-2;i++){
+            // 本处记得判断是否上个一样
             if(i>0&&num[i]==num[i-1])
                 continue;
             int left = i+1;

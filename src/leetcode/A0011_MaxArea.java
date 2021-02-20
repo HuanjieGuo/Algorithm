@@ -17,38 +17,15 @@ package leetcode;
 
  */
 public class A0011_MaxArea {
-    /**
-     * 求盛水最大面积
-     * 暴力破解法 复杂度 o(n2)
-     * @param height
-     * @return
-     */
-    public static int maxArea1(int[] height) {
+    public int maxArea(int[] height) {
+        if (height.length<=1) return 0;
+        int left = 0;
+        int right = height.length-1;
         int max = 0;
-        for(int i=0;i<height.length-1;i++){
-            for(int j=i+1;j<height.length;j++){
-                max = Math.max(max,Math.min(height[i],height[j])*(j-i));
-            }
-        }
-        return max;
-    }
-
-    /**
-     * 双指针移动法  时间复杂度o(n)
-     * @param height
-     * @return
-     */
-    public static int maxArea2(int[] height) {
-        int max = 0;
-        int i=0;
-        int j=height.length-1;
-        while(i<j){
-            max = Math.max(max,Math.min(height[i],height[j])*(j-i));
-            if(height[i]>height[j]){
-                j--;
-            }else {
-                i++;
-            }
+        while (left<right){
+            max = Math.max(max,Math.min(height[left],height[right])*(right-left));
+            if(height[left]>height[right])right--;
+            else left++;
         }
         return max;
     }
