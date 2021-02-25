@@ -19,34 +19,28 @@ package offerAlgorithm;
  */
 public class A_Offer_46_TranslateNum {
     /**
-     *   能解释的话 dp[i+1] = dp[i] + dp[i-1]
-     *   不能的话  dp[i+1] = dp[i]
+     如果最近两个数字在10-25   :   dp[i] = dp[i-1]+dp[i-2]
+     如果不在               ：   dp[i] = dp[i-1]
      */
     public static int translateNum(int num) {
         String str = String.valueOf(num);
-        // dp数组的大小有n+1个  因为空字符串占用了一个
         int[] dp = new int[str.length()+1];
-        // 如何知道dp[0] 表示空字符串 状态
-        // 如果2个字符的情况下，2个可以翻译，那么有2种情况， 而dp[1]=1 所以dp[0]=1
-        dp[0] = dp[1] = 1;
-        for(int i=1;i<str.length();i++){
-            int number = Integer.valueOf(str.substring(i-1,i+1));
-            if(number>=10&&number<=25){
-                // 可翻译
-                dp[i+1] = dp[i]+dp[i-1];
-            }else {
-                // 不能翻译
-                dp[i+1] = dp[i];
-            }
-        }
+        dp[0] = 1;
+        dp[1] = 1;
+        for(int i=2;i<=str.length();i++)
+            if(str.substring(i-2,i).compareTo("10")>=0
+            &&str.substring(i-2,i).compareTo("25")<=0)
+                dp[i] = dp[i-1]+dp[i-2];
+            else dp[i] = dp[i-1];
         return dp[str.length()];
     }
+
 
     /**
      *
      * @param args
      */
     public static void main(String[] args) {
-        System.out.println(translateNum(123));
+        System.out.println(translateNum(26));
     }
 }

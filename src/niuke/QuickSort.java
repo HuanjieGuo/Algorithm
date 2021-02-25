@@ -1,6 +1,5 @@
 package niuke;
 
-import edu.princeton.cs.algs4.Quick;
 
 import java.util.ArrayList;
 import java.util.Arrays;
