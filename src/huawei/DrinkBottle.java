@@ -9,8 +9,9 @@ public class DrinkBottle {
             bottle = bottle / 3 + bottle%3;
         }
         if(bottle==2) eat++;
-        return eat;
-    }
+        StringBuilder stringBuilder = new StringBuilder("");
+        stringBuilder.append(" ");
+        return eat; }
 
     public static void main(String[] args) {
         System.out.println(drink(10));
