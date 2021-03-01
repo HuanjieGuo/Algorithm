@@ -26,22 +26,23 @@ package offerAlgorithm;
  */
 public class A_Offer_60_DicesProbability {
     public static double[] dicesProbability(int n) {
-        int dp[][] = new int[n][6*n];
-        for(int i=0;i<6;i++)
-            dp[0][i] = 1;
-        for(int i=1;i<n;i++)
-            for(int col=0;col<6*i;col++)
-                for(int num=1;num<=6;num++)
-                    dp[i][col+num] += dp[i-1][col];
-        int all = 0;
-        for(int item:dp[n-1]) all+=item;
+        int[][] dp = new int [n+1][n*6+1];
+        for(int i=1;i<=6;i++)
+            dp[1][i] = 1;
+
+        for(int i=2;i<=n;i++)
+            for(int j=i;j<=i*6;j++)
+                for(int dice=1;dice<=6&dice<j;dice++)
+                    dp[i][j] += dp[i-1][j-dice];
+
         double[] res = new double[5*n+1];
-        for(int i=0;i<res.length;i++)
-            res[i] = Double.valueOf(dp[n-1][i+n-1])/all;
+        double all = Math.pow(6,n);
+        for(int i=0;i<5*n+1;i++)
+            res[i] = dp[n][i + n] / all;
         return res;
     }
 
     public static void main(String[] args) {
-        dicesProbability(2);
+        dicesProbability(3);
     }
 }

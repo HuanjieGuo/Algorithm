@@ -25,25 +25,26 @@ public class Offer_18_DeleteNode {
     /**
      用pre记录前一个，headRe记录第一个
      */
-    public ListNode deleteNode(ListNode head, int val) {
-        // 第一个是
-        if(head.val==val){
-            return head.next;
+    public static ListNode deleteNode(ListNode head, int val) {
+        if(head==null) return null;
+        if(head.val==val) return head.next;
+        ListNode ahead=head;
+        ListNode behind = null;
+        while(ahead!=null){
+            if(ahead.val==val) behind.next = ahead.next;
+            else behind = ahead;
+            ahead = ahead.next;
         }
-        // 非第一个是
-        ListNode headRe = head;
-        // 初始化pre为第一个
-        ListNode pre = head;
-        // 跳过第一个
-        head = head.next;
-        while (head!=null){
-            if(head.val==val){
-                pre.next = head.next;
-                return headRe;
-            }
-            pre = head;
-            head = head.next;
-        }
-        return null;
+        return head;
+    }
+
+
+    public static void main(String[] args) {
+        ListNode n1 = new ListNode(-3);
+        ListNode n2 = new ListNode(5);
+        ListNode n3 = new ListNode(-99);
+        n1.next = n2;
+        n2.next = n3;
+        deleteNode(n1,-99);
     }
 }

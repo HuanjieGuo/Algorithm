@@ -1,9 +1,6 @@
 package leetcode;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合。
@@ -23,7 +20,7 @@ import java.util.Map;
 
 
 public class A0017_LetterCombinations {
-    List<String> result = new ArrayList<>();
+    ArrayList<String> list;
     Map<String, String> phone = new HashMap<String, String>() {{
         put("2", "abc");
         put("3", "def");
@@ -36,38 +33,53 @@ public class A0017_LetterCombinations {
     }};
 
     /**
-     * 带着已经组合成的字符串，未处理的字符串
-     * 递归调用  for 里面   老字符串+新CHAR , 未处理字符串-1
-     * 类似dfs
-     * @param combination
-     * @param next_digits
+     递归实现
      */
-    public void backtrack(String combination, String next_digits) {
-        if(next_digits.equals("")){
-            result.add(combination);
-        }else {
-            String digest = phone.get(next_digits.substring(0,1));
-            for(int i=0;i<digest.length();i++){
-                backtrack(combination+digest.charAt(i),next_digits.substring(1,next_digits.length()));
-            }
+    public List<String> letterCombinations(String digits) {
+        if(digits==null) return null;
+        list = new ArrayList<>();
+        if(digits.length()==0) return list;
+        recur("",digits);
+        return list;
+    }
+
+    void recur(String currentStr,String digits){
+        if(digits.length()==0){
+            list.add(currentStr);
+            return;
+        }
+        String numStr = phone.get(digits.substring(0,1));
+        for(char ch:numStr.toCharArray()){
+            recur(currentStr+ch,digits.substring(1));
         }
     }
     /**
-     * 回溯法
-     * 时间复杂度，对于本题目 O(n^3)
-     * @param digits
-     * @return
+     队列实现
      */
-    public List<String> letterCombinations(String digits) {
-        if(digits.equals("")){
-            return result;
+    public List<String> letterCombinationsByQueue(String digits) {
+        int len = digits.length();
+        List<String> list = new ArrayList();
+        if(digits==null) return null;
+        Queue<String> queue = new LinkedList<>();
+        queue.add("");
+        while (digits.length()!=0){
+            // 2
+            String str = phone.get(digits.substring(0,1));
+            while (queue.peek().length()!=len+1-digits.length()) {
+                String one = queue.poll();
+                for(char ch:str.toCharArray())
+                    queue.offer(one+ch);
+            }
+            digits = digits.substring(1);
         }
-        backtrack("",digits);
-        return result;
+        if(queue.peek().equals("")) return list;
+        while (queue.peek()!=null)
+            list.add(queue.poll());
+        return list;
     }
 
     public static void main(String[] args) {
-        String s = "";
+        String s = "23";
         System.out.println(new A0017_LetterCombinations().letterCombinations(s));
     }
 
