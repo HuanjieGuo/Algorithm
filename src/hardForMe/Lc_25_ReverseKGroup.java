@@ -1,8 +1,6 @@
-package leetcode;
+package hardForMe;
 
 import leetcode.structure.ListNode;
-
-import java.util.List;
 
 /**
  给你一个链表，每 k 个节点一组进行翻转，请你返回翻转后的链表。
@@ -28,7 +26,7 @@ import java.util.List;
 
  */
 
-public class A0025_ReverseKGroup {
+public class Lc_25_ReverseKGroup {
     /**
      * https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/tu-jie-kge-yi-zu-fan-zhuan-lian-biao-by-user7208t/
      */
@@ -94,7 +92,7 @@ public class A0025_ReverseKGroup {
         listNode2.next = listNode3;
         listNode3.next = listNode4;
         listNode4.next = listNode5;
-        new A0025_ReverseKGroup().reverseKGroup(listNode1,3);
+        new Lc_25_ReverseKGroup().reverseKGroup(listNode1,3);
 
     }
 }
