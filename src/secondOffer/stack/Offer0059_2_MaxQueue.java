@@ -1,4 +1,4 @@
-package secondOffer.queue;
+package secondOffer.stack;
 
 import java.util.Deque;
 import java.util.LinkedList;
