@@ -17,10 +17,11 @@ public class Resource {
     // 消费者
     public void remove(){
         try{
+            //释放锁
             reentrantLock.lock();
-            if(full==0){
+            while (full==0){
                 System.out.println("消费者进入等待线程");
-                // 阻塞
+                // 调用await的线程释放锁然后加入到等待队列，并且线程状态转换为等待状态。
                 condition.await();
             }
             //消费
@@ -41,8 +42,9 @@ public class Resource {
     public void put(){
         try{
             reentrantLock.lock();
-            if(free==0){
+            while (free==0){
                 System.out.println("生产者进入等待线程");
+                // 调用await的线程释放锁然后加入到等待队列，并且线程状态转换为等待状态。
                 condition.await();
             }
             free--;
