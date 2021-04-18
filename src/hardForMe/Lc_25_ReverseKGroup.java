@@ -65,7 +65,7 @@ public class Lc_25_ReverseKGroup {
             // 翻转结束，将end置为下次要翻转的链表的头节点的上一个点，即start.
             end = start;
         }
-        return dummy;
+        return dummy.next;
     }
 
     private ListNode reverse(ListNode head){
@@ -88,11 +88,21 @@ public class Lc_25_ReverseKGroup {
         ListNode listNode3 = new ListNode(3);
         ListNode listNode4 = new ListNode(4);
         ListNode listNode5 = new ListNode(5);
+        ListNode listNode6 = new ListNode(6);
+        ListNode listNode7 = new ListNode(7);
+        ListNode listNode8 = new ListNode(8);
         listNode1.next = listNode2;
         listNode2.next = listNode3;
         listNode3.next = listNode4;
         listNode4.next = listNode5;
-        new Lc_25_ReverseKGroup().reverseKGroup(listNode1,3);
+        listNode5.next = listNode6;
+        listNode6.next = listNode7;
+        listNode7.next = listNode8;
+        ListNode node = new Lc_25_ReverseKGroup().reverseKGroup(listNode1,3);
+        while (node!=null){
+            System.out.println(node.val);
+            node=node.next;
+        }
 
     }
 }
