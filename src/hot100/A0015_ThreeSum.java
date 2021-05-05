@@ -1,4 +1,4 @@
-package top100;
+package hot100;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package top100;
+package hot100;
 
 public class A0005_LongestPalindrome {
     public static String longestPalindrome(String s) {

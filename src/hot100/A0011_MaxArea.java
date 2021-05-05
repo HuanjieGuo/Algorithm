@@ -1,4 +1,4 @@
-package top100;
+package hot100;
 
 public class A0011_MaxArea {
     public int maxArea(int[] height) {

@@ -1,4 +1,4 @@
-package top100;
+package hot100;
 
 import leetcode.structure.ListNode;
 

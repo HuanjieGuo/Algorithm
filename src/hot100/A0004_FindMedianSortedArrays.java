@@ -1,4 +1,4 @@
-package top100;
+package hot100;
 
 public class A0004_FindMedianSortedArrays {
 //    public double findMedianSortedArrays(int[] nums1, int[] nums2) {

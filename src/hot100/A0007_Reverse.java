@@ -1,4 +1,4 @@
-package top100;
+package hot100;
 
 public class A0007_Reverse {
     public static int reverse(int x) {

@@ -1,5 +1,7 @@
-package top100;
+package hot100;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Stack;
 
 public class A0020_IsValid {
@@ -25,5 +27,9 @@ public class A0020_IsValid {
             }
         }
         return stack.isEmpty();
+    }
+
+    public static void main(String[] args) {
+        Map map = new HashMap();
     }
 }
